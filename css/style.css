@@ -1,0 +1,70 @@
+@import url('../vendor/normalize.css');
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-fount-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}
+
+.root {
+  background: linear-gradient(rgb(0, 0, 182), rgb(34, 0, 73)) no-repeat;
+}
+
+.countdown {
+  border-radius: 5px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 450px;
+  min-width: 450px;
+  height: 250px;
+}
+
+.title {
+  margin: 0 auto 25px;
+  text-align: center;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.number-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.number-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.number-border {
+  display: flex;
+  justify-content: center;
+  border-radius: 30%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  border: 3px solid rgb(125, 98, 155);
+}
+
+.number {
+  margin: 0;
+  font-size: 50px;
+  padding-top: 15px;
+  position: absolute;
+  color: aliceblue;
+  text-align: center;
+}
+
+.number-title {
+  display: inline-block;
+  color: white;
+  margin: 0;
+}
