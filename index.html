@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
   <link rel='stylesheet' href="./css/style.css">
   <title>Учебный таймер</title>
 </head>
@@ -11,11 +12,12 @@
 <body class="root">
     <div class="countdown">
 
-      <div class="title">Do novogo goda:</div>
+      <div class="title">Countdown Timer</div>
       <div class="number-container">
 
         <article class="number-item">
           <div class="number-border">
+            <div id="day" class="number-border-anim"></div>
             <h2 class="number days"></h2>
           </div>
           <p class="number-title number-title-days">DAYS</p>
@@ -23,6 +25,7 @@
 
         <article class="number-item">
           <div class="number-border">
+            <div id="hour" class="number-border-anim"></div>
             <h2 class="number hours"></h2>
           </div>
           <p class="number-title number-title-hours">HOURS</p>
@@ -30,6 +33,7 @@
 
         <article class="number-item">
           <div class="number-border">
+            <div id="min" class="number-border-anim"></div>
             <h2 class="number mins"></h2>
           </div>
           <p class="number-title number-title-mins">MINUTES</p>
@@ -37,6 +41,7 @@
 
         <article class="number-item">
           <div class="number-border">
+            <div id="sec" class="number-border-anim"></div>
             <h2 class="number secs"></h2>
           </div>
           <p class="number-title number-title-secs">SECONDS</p>
