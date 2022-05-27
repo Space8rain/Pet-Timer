@@ -12,7 +12,7 @@
 <body class="root">
     <div class="countdown">
 
-      <div class="title">Countdown Timer</div>
+      <h1 class="title">Countdown Timer</h1>
       <div class="number-container">
 
         <article class="number-item">
@@ -52,9 +52,17 @@
         <div class="progress-bar-value"></div>
       </div>
 
-      <div class="custom-countdown">
-        <button class="button btn-customize">Задать свой счетчик</button>
-        <div class="customize"></div>
+      <button class="button btn-customize">Setup own countdown</button>
+
+      <div class="custom-countdown is-active">
+        <div class="custom-countdown-container">
+          <button class="button btn-close-popup">&#9587;</button>
+          <form class="customize">
+            <label class="custom-title" for="custom-date">Enter date:</label>
+            <input autocomplete="off" required placeholder="YYYY-MM-DD" class="custom-date" id="custom-date" type="datetime">
+            <button class="button btn-submit" type="submit">Accept</button>
+          </form>
+        </div>
       </div>
     </div>
   <script src='./js/app.js'></script>
